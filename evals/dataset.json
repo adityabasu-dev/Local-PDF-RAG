@@ -1,0 +1,574 @@
+[
+  {
+    "id": "NET-001",
+    "category": "direct",
+    "question": "What are the two main purposes of a computer network?",
+    "expected_pages": [
+      6
+    ],
+    "expected_facts": [
+      "exchange information",
+      "share resources"
+    ],
+    "reference_answer": "Exchange information and share resources.",
+    "answerable": true
+  },
+  {
+    "id": "NET-002",
+    "category": "paraphrase",
+    "question": "What does connecting computers via cables or wireless media let them do?",
+    "expected_pages": [
+      6
+    ],
+    "expected_facts": [
+      "information",
+      "resources"
+    ],
+    "reference_answer": "Exchange information and share resources.",
+    "answerable": true
+  },
+  {
+    "id": "NET-003",
+    "category": "direct",
+    "question": "Which four functions does the textbook attribute to a computer?",
+    "expected_pages": [
+      6
+    ],
+    "expected_facts": [
+      "input",
+      "process",
+      "stor",
+      "output"
+    ],
+    "reference_answer": "Input, processing, storage, and output.",
+    "answerable": true
+  },
+  {
+    "id": "NET-004",
+    "category": "direct",
+    "question": "Why is RAM considered short-term or volatile storage?",
+    "expected_pages": [
+      7
+    ],
+    "expected_facts": [
+      "volatile",
+      "power"
+    ],
+    "reference_answer": "It needs continuous power to retain its contents.",
+    "answerable": true
+  },
+  {
+    "id": "NET-005",
+    "category": "comparison",
+    "question": "How do RAM and SSD storage differ in retaining data when power is off?",
+    "expected_pages": [
+      7
+    ],
+    "expected_facts": [
+      "RAM",
+      "volatile",
+      "SSD"
+    ],
+    "reference_answer": "RAM is volatile; SSD is non-volatile long-term storage.",
+    "answerable": true
+  },
+  {
+    "id": "NET-006",
+    "category": "direct",
+    "question": "What does a network interface card do?",
+    "expected_pages": [
+      8
+    ],
+    "expected_facts": [
+      "network",
+      "NIC"
+    ],
+    "reference_answer": "It connects a computer to a network, using a wired or wireless interface.",
+    "answerable": true
+  },
+  {
+    "id": "NET-007",
+    "category": "direct",
+    "question": "What does the textbook mean by network medium?",
+    "expected_pages": [
+      8
+    ],
+    "expected_facts": [
+      "channel",
+      "wired",
+      "wireless"
+    ],
+    "reference_answer": "The wired or wireless channel through which network devices communicate.",
+    "answerable": true
+  },
+  {
+    "id": "NET-008",
+    "category": "direct",
+    "question": "How does the textbook distinguish a packet from a frame?",
+    "expected_pages": [
+      11
+    ],
+    "expected_facts": [
+      "IP",
+      "MAC"
+    ],
+    "reference_answer": "A packet includes network-layer IP addresses; a frame also includes data-link MAC addresses.",
+    "answerable": true
+  },
+  {
+    "id": "NET-009",
+    "category": "comparison",
+    "question": "Compare an intranet with an extranet according to the text.",
+    "expected_pages": [
+      11
+    ],
+    "expected_facts": [
+      "intranet",
+      "extranet",
+      "access"
+    ],
+    "reference_answer": "An intranet provides internal organizational access; an extranet offers controlled access to outsiders.",
+    "answerable": true
+  },
+  {
+    "id": "NET-010",
+    "category": "direct",
+    "question": "What does the client do in a client-server network?",
+    "expected_pages": [
+      12
+    ],
+    "expected_facts": [
+      "request",
+      "server"
+    ],
+    "reference_answer": "The client requests services; a server provides them.",
+    "answerable": true
+  },
+  {
+    "id": "NET-011",
+    "category": "comparison",
+    "question": "How does peer-to-peer networking differ from a client-server design?",
+    "expected_pages": [
+      13
+    ],
+    "expected_facts": [
+      "peer",
+      "server",
+      "central"
+    ],
+    "reference_answer": "P2P peers can act as both client and server, without central resource control; client-server centralizes services.",
+    "answerable": true
+  },
+  {
+    "id": "NET-012",
+    "category": "direct",
+    "question": "Which OSI layers do repeaters, switches, and routers operate on in this textbook?",
+    "expected_pages": [
+      15
+    ],
+    "expected_facts": [
+      "1",
+      "2",
+      "3"
+    ],
+    "reference_answer": "Repeaters at layer 1, switches at layer 2, and routers at layer 3.",
+    "answerable": true
+  },
+  {
+    "id": "NET-013",
+    "category": "direct",
+    "question": "Why would you use a repeater on a network?",
+    "expected_pages": [
+      15
+    ],
+    "expected_facts": [
+      "signal",
+      "range"
+    ],
+    "reference_answer": "To regenerate signals and extend the reach of LAN segments.",
+    "answerable": true
+  },
+  {
+    "id": "NET-014",
+    "category": "paraphrase",
+    "question": "How does an Ethernet switch learn which port leads to a device?",
+    "expected_pages": [
+      17
+    ],
+    "expected_facts": [
+      "CAM",
+      "MAC",
+      "port"
+    ],
+    "reference_answer": "It builds a CAM table mapping MAC addresses to ports as traffic arrives.",
+    "answerable": true
+  },
+  {
+    "id": "NET-015",
+    "category": "comparison",
+    "question": "What is the trade-off between store-and-forward and cut-through switching?",
+    "expected_pages": [
+      19
+    ],
+    "expected_facts": [
+      "verify",
+      "frame",
+      "cut"
+    ],
+    "reference_answer": "Store-and-forward verifies a complete frame; cut-through reads addresses and forwards without that full verification.",
+    "answerable": true
+  },
+  {
+    "id": "NET-016",
+    "category": "direct",
+    "question": "What kind of addresses do routers use for forwarding?",
+    "expected_pages": [
+      19
+    ],
+    "expected_facts": [
+      "IP",
+      "network"
+    ],
+    "reference_answer": "IP addresses at the network layer.",
+    "answerable": true
+  },
+  {
+    "id": "NET-017",
+    "category": "direct",
+    "question": "Name the four layers of TCP/IP given by the textbook.",
+    "expected_pages": [
+      36
+    ],
+    "expected_facts": [
+      "Application",
+      "Transport",
+      "Internet",
+      "Network"
+    ],
+    "reference_answer": "Application, Transport, Internet, and Network Access.",
+    "answerable": true
+  },
+  {
+    "id": "NET-018",
+    "category": "direct",
+    "question": "Which HTTP method requests data from a specified resource?",
+    "expected_pages": [
+      38
+    ],
+    "expected_facts": [
+      "GET"
+    ],
+    "reference_answer": "GET.",
+    "answerable": true
+  },
+  {
+    "id": "NET-019",
+    "category": "direct",
+    "question": "What is the default port number for HTTPS in the textbook?",
+    "expected_pages": [
+      38
+    ],
+    "expected_facts": [
+      "443"
+    ],
+    "reference_answer": "443.",
+    "answerable": true
+  },
+  {
+    "id": "NET-020",
+    "category": "comparison",
+    "question": "How do HTTP and HTTPS differ according to the text?",
+    "expected_pages": [
+      38
+    ],
+    "expected_facts": [
+      "encrypt",
+      "TLS"
+    ],
+    "reference_answer": "HTTPS encrypts requests and responses using TLS/SSL, while HTTP is unencrypted in this comparison.",
+    "answerable": true
+  },
+  {
+    "id": "NET-021",
+    "category": "direct",
+    "question": "What does DNS translate a domain name into?",
+    "expected_pages": [
+      39
+    ],
+    "expected_facts": [
+      "domain",
+      "IP"
+    ],
+    "reference_answer": "An IP address.",
+    "answerable": true
+  },
+  {
+    "id": "NET-022",
+    "category": "direct",
+    "question": "What problem does CIDR solve compared with classful IP addressing?",
+    "expected_pages": [
+      46
+    ],
+    "expected_facts": [
+      "classless",
+      "address"
+    ],
+    "reference_answer": "CIDR provides flexible address allocation and reduces unused addresses.",
+    "answerable": true
+  },
+  {
+    "id": "NET-023",
+    "category": "direct",
+    "question": "How does port address translation distinguish two internal hosts accessing a remote service?",
+    "expected_pages": [
+      46
+    ],
+    "expected_facts": [
+      "port",
+      "PAT"
+    ],
+    "reference_answer": "PAT records/uses different port numbers to distinguish their traffic.",
+    "answerable": true
+  },
+  {
+    "id": "NET-024",
+    "category": "direct",
+    "question": "How many layers are in the OSI reference model?",
+    "expected_pages": [
+      53
+    ],
+    "expected_facts": [
+      "seven"
+    ],
+    "reference_answer": "Seven.",
+    "answerable": true
+  },
+  {
+    "id": "NET-025",
+    "category": "direct",
+    "question": "Which OSI layer handles encoding, encryption and compression?",
+    "expected_pages": [
+      55
+    ],
+    "expected_facts": [
+      "presentation"
+    ],
+    "reference_answer": "The presentation layer.",
+    "answerable": true
+  },
+  {
+    "id": "NET-026",
+    "category": "direct",
+    "question": "Which OSI layer manages sessions and connection state?",
+    "expected_pages": [
+      55
+    ],
+    "expected_facts": [
+      "session"
+    ],
+    "reference_answer": "The session layer.",
+    "answerable": true
+  },
+  {
+    "id": "NET-027",
+    "category": "direct",
+    "question": "Which OSI layer handles routing and IP addresses?",
+    "expected_pages": [
+      56
+    ],
+    "expected_facts": [
+      "network",
+      "IP"
+    ],
+    "reference_answer": "The network layer.",
+    "answerable": true
+  },
+  {
+    "id": "NET-028",
+    "category": "direct",
+    "question": "What data units result as information moves through transport, network, and data-link layers?",
+    "expected_pages": [
+      56
+    ],
+    "expected_facts": [
+      "segment",
+      "packet",
+      "frame"
+    ],
+    "reference_answer": "Segments, then packets, then frames.",
+    "answerable": true
+  },
+  {
+    "id": "NET-029",
+    "category": "direct",
+    "question": "What is DHCP used for?",
+    "expected_pages": [
+      56
+    ],
+    "expected_facts": [
+      "IP",
+      "autom"
+    ],
+    "reference_answer": "Automatic assignment of IP addresses for a lease period.",
+    "answerable": true
+  },
+  {
+    "id": "NET-030",
+    "category": "direct",
+    "question": "What is subnetting?",
+    "expected_pages": [
+      60
+    ],
+    "expected_facts": [
+      "smaller",
+      "network"
+    ],
+    "reference_answer": "Dividing a larger network into smaller subnetworks.",
+    "answerable": true
+  },
+  {
+    "id": "NET-031",
+    "category": "direct",
+    "question": "What are the two subnetting types introduced in the textbook?",
+    "expected_pages": [
+      60
+    ],
+    "expected_facts": [
+      "fixed",
+      "variable"
+    ],
+    "reference_answer": "Fixed-length and variable-length subnetting.",
+    "answerable": true
+  },
+  {
+    "id": "NET-032",
+    "category": "comparison",
+    "question": "When would variable-length subnetting be preferable to fixed-length subnetting?",
+    "expected_pages": [
+      60
+    ],
+    "expected_facts": [
+      "different",
+      "size"
+    ],
+    "reference_answer": "When subnet groups need different numbers of addresses rather than equal-sized subnets.",
+    "answerable": true
+  },
+  {
+    "id": "NET-033",
+    "category": "direct",
+    "question": "What are three major components of an operating system described here?",
+    "expected_pages": [
+      67
+    ],
+    "expected_facts": [
+      "kernel",
+      "file system",
+      "process"
+    ],
+    "reference_answer": "Kernel, file system, and processes/services.",
+    "answerable": true
+  },
+  {
+    "id": "NET-034",
+    "category": "multi_section",
+    "question": "Compare the addresses used by Ethernet switches and IP routers.",
+    "expected_pages": [
+      17,
+      19
+    ],
+    "expected_facts": [
+      "MAC",
+      "IP"
+    ],
+    "reference_answer": "Switches use MAC addresses; routers use IP addresses.",
+    "answerable": true
+  },
+  {
+    "id": "NET-035",
+    "category": "multi_section",
+    "question": "How is DHCP related to the networking topics of addressing and OSI services?",
+    "expected_pages": [
+      56
+    ],
+    "expected_facts": [
+      "DHCP",
+      "IP",
+      "application"
+    ],
+    "reference_answer": "DHCP assigns IP configurations automatically and is described as an application-layer protocol.",
+    "answerable": true
+  },
+  {
+    "id": "NEG-001",
+    "category": "unanswerable",
+    "question": "What is the private password for the authors' university email accounts?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-002",
+    "category": "unanswerable",
+    "question": "What are the live router CPU temperatures inside Georgia Gwinnett College today?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-003",
+    "category": "unanswerable",
+    "question": "What was the measured TCP throughput on the authors' home router yesterday?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-004",
+    "category": "unanswerable",
+    "question": "Which exact cloud provider hosts this chatbot right now?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-005",
+    "category": "unanswerable",
+    "question": "What is the current public IP address of my laptop?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-006",
+    "category": "unanswerable",
+    "question": "What are the individual students' exam scores for ITEC 3100 in 2026?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-007",
+    "category": "unanswerable",
+    "question": "What are the passwords of the servers described in the networking textbook?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  },
+  {
+    "id": "NEG-008",
+    "category": "unanswerable",
+    "question": "What is the authors' personal Wi-Fi passphrase?",
+    "expected_pages": [],
+    "expected_facts": [],
+    "reference_answer": "The document does not provide that information.",
+    "answerable": false
+  }
+]
